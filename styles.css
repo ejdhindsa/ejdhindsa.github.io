@@ -1,5 +1,33 @@
 body 
 {
-    background-color: #000;
+    background-color: #181714;
+}
+
+.header-section
+{
+    margin: 5em 12em;
+    border: #211f1b solid 2px;
+    font-family: 'Tahoma', sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text
+{
+    padding: 25px 0;
+    width: 65%;
+}
+
+.header-section #header
+{
+    font-size: 1.9em;
+}
+
+.header-section #sub-header
+{
+    font-size: 1.2em;
+    color: #b4b4b4;
 }
 
