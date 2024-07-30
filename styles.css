@@ -3,6 +3,39 @@ body
     background-color: #181714;
 }
 
+.nav-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar
+{
+    height: 20px;
+    display: flex;
+    width: 60%;
+}
+
+.navbar, a
+{
+    text-decoration: none;
+    color: #e8cf29;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1.2em;
+}
+
+#homepage
+{
+    width: 60%;
+}
+
+#nav-page
+{
+    padding: 0 18px;
+    text-align: right;
+}
+
 .header-section
 {
     margin: 5em 12em;
@@ -20,14 +53,15 @@ body
     width: 65%;
 }
 
-.header-section #header
+.header-section, #header
 {
-    font-size: 1.9em;
+    font-size: 1.6em;
+    color: #fff;
 }
 
-.header-section #sub-header
+.header-section, #sub-header
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #b4b4b4;
 }
 
