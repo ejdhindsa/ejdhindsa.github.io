@@ -1,3 +1,10 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 body 
 {
     background-color: #181714;
@@ -5,63 +12,78 @@ body
 
 .nav-section
 {
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: #211f1b solid 2px;
 }
 
 .nav-bar
 {
-    height: 20px;
     display: flex;
     width: 60%;
+}
+
+.navbar, #nav-page:hover
+{
+    background-color: #2a2722;
+    color: #fff;
 }
 
 .navbar, a
 {
     text-decoration: none;
-    color: #e8cf29;
-    font-family: 'Tahoma', sans-serif;
+    color: #d9d9d9;
     font-size: 1.2em;
 }
 
 #homepage
 {
+    padding: 15px 0px;
     width: 60%;
 }
 
 #nav-page
 {
-    padding: 0 18px;
+    padding: 15px 18px;
     text-align: right;
+    border-radius: 8px;
 }
 
 .header-section
 {
     margin: 5em 12em;
-    border: #211f1b solid 2px;
-    font-family: 'Tahoma', sans-serif;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-left: #211f1b solid 2px;
+    border-right: #211f1b solid 2px;
 }
 
 .header-text
 {
     padding: 25px 0;
     width: 65%;
+    line-height: 25px;
 }
 
 .header-section, #header
 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     color: #fff;
+    font-weight: 100;
 }
 
 .header-section, #sub-header
 {
-    font-size: 1.1em;
+    font-size: 1.05em;
     color: #b4b4b4;
 }
 
+.header-image, #deadpool
+{
+    height: 16em;
+    transform: scaleX(-1); 
+}
