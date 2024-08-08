@@ -87,3 +87,25 @@ body
     height: 16em;
     transform: scaleX(-1); 
 }
+
+.projects-section
+{
+    margin: 5em 12em;
+    color: #fff;
+    display: flex;
+    border-left: #211f1b solid 2px;
+    border-right: #211f1b solid 2px;
+}
+
+#current-project
+{
+    margin: 0 3em;
+}
+
+#project-header
+{
+    font-size: 1.8em;
+    align-items: left;
+    justify-content: left;
+}
+
